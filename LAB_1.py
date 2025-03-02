@@ -168,8 +168,8 @@ if __name__ == "__main__":
     five_strings = grammar.generate_5_strings()
     print("\n5 Unique Strings:", five_strings)
 
-    result1 = grammar.check_string('abd')
-    print("\nChecking if the string abd was obtained via the finite set of production of rules from the Grammar:")
+    result1 = grammar.check_string('bdb')
+    print("\nChecking if the string bdb was obtained via the finite set of production of rules from the Grammar:")
     print(result1)
 
     fa = FA(Vn, Vt, P, S)
@@ -180,6 +180,6 @@ if __name__ == "__main__":
     print("Terminals: ", terminals)
     print("Start state: ", start_state)
 
-    result2 = fa.check_string_via_transition('abd')
-    print("\nChecking if the string abd can be obtained via the state transition from FA:")
+    result2 = fa.check_string_via_transition('bdb')
+    print("\nChecking if the string 'bdb' can be obtained via the state transition from FA:")
     print(result2)
