@@ -182,4 +182,4 @@ if __name__ == "__main__":
 
     result2 = fa.check_string_via_transition('bdb')
     print("\nChecking if the string 'bdb' can be obtained via the state transition from FA:")
-    print(result2)
+    print(result2)  
