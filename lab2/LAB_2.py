@@ -118,3 +118,4 @@ regular_grammar = fa.to_regular_grammar()
 print("Regular Grammar:", regular_grammar)
 print("Grammar Classification:", fa.classify_grammar(regular_grammar))
 fa.draw()
+x
